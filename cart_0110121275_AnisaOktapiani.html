@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="En">
+    <head>
+        <title>Cart</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .Container {
+                border: solid;
+            }
+            section {
+                margin: 10px 5px 50px 5px;
+            }
+            .flexbox {
+                border: solid;
+            }
+            table {
+                border-collapse: collapse;
+            }
+            .rows {
+                border-top: 1px solid black;
+                border-bottom: 1px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="Container">
+            <nav style="background: grey; padding: 10px;" class="flexbox">
+              <ul style="list-style-type: none;">
+                  <li style="display: inline"><a style="margin: 0px 0px 50px -30px"><img style="width: 11px;" src="https://media.discordapp.net/attachments/894919708938223657/901237980616871936/kotak.png" alt="logo kotak"> Site Name</a></li>
+                  <li style="display: inline"><a style="margin: 0px 0px 0px 30px" href="#">Category 1</a> |</li>
+                  <li style="display: inline"><a href="#">Category 2</a> |</li>
+                  <li style="display: inline"><a href="#">Category 3</a></li>
+                  <li style="display: inline"><a style="margin: 0px 0px -190px 180px"><img style="width: 11px;" src="https://media.discordapp.net/attachments/894919708938223657/901242522486067200/searchmagnifierinterfacesymbol1_79893.png" alt="logo search"><img style="width: 11px;" src="https://media.discordapp.net/attachments/894919708938223657/901240580607209472/shopping-cart_118662.png" alt="logo troli"> Cart (1)</a></li>
+              </ul>
+            </nav>
+            <section>
+              <h1>Your Cart</h1>
+              <table>
+                <tbody>
+                  <tr>
+                    <td class="rows"><b>Item</b></td>
+                    <td class="rows"><b>Price</b></td>
+                    <td class="rows"><b>Quantity</b></td>
+                    <td rowspan="2">
+                      <div style="background: grey; padding: 1px 20px;" class="Container-yas">
+                        <h4>Summary (1 item)</h4>
+                        <table style="width: 110px;" class="yas">
+                          <tr>
+                            <td>Subtotal</td>
+                            <td style="text-align: right;">$2.83</td>
+                          </tr>
+                          <tr>
+                            <td>Shipping</td>
+                            <td style="text-align: right;">-</td>
+                          </tr>
+                          <tr>
+                            <td>Est. Taxes</td>
+                            <td style="text-align: right;">-</td>
+                          </tr>
+                        </table>
+                        <hr>
+                        <table style="width: 110px;">
+                          <tbody>
+                            <tr>
+                              <td>Total</td>
+                              <td style="text-align: right;">$2.83</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <button style="width: 110px; background: blue;" type="submit">Checkout</button>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="rows">
+                      <table>
+                        <tbody>
+                          <tr>
+                            <td><img style="width: 50px;" src="https://media.discordapp.net/attachments/894919708938223657/900597024729223178/images_1.jpeg" alt="T-shirt"></td>
+                            <td>
+                              <table>
+                                <tbody style="font-size: 5px;">
+                                  <tr><td>T-shirt</td></tr>
+                                  <tr><td>Size : Small</td></tr>
+                                </tbody>
+                              </table>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                    <td style="margin-right: 30px;"  class="rows"><b>$2.83</b></td>
+                    <td class="rows">
+                      <select style="margin: 0px 0px 0px 10px;">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                      </select>
+                    </td>
+                  </tr>
+                  <tr>  
+                    <td class="rows"></td>
+                    <td class="rows"></td>
+                    <td class="rows">Subtotal : $2.83</td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+            </section>
+            <footer class="flexbox">
+              <ul style="list-style-type: none;">
+                  <li style="display: inline"><a style="margin: 0px 0px 50px -30px"> Site Name</a></li>
+                  <li style="display: inline"><a style="margin: 0px 0px 0px 20px" href="#">Category X</a> |</li>
+                  <li style="display: inline"><a href="#">Category Y</a> |</li>
+                  <li style="display: inline"><a href="#">Category Z</a></li>
+                  <li style="display: inline"><a style="margin: 0px 0px -100px 70px"> Stay In Touch! Join our Newsletter.</a></li>
+              </ul>
+              <ul style="list-style-type: none;">
+                  <li style="display: inline"><a style="margin: 0px 0px 0px -30px"><img style="width: 24px;" src="https://media.discordapp.net/attachments/894919708938223657/901240614195187732/visa.png" alt="logo visa"></a></li>
+                  <li style="display: inline"><a style="margin: 0px 0px 0px 0px"><img style="width: 31px;" src="https://media.discordapp.net/attachments/894919708938223657/901240639876907018/1490135018-mastercard_82253.png" alt="logo mastercard"></a></li>
+                  <li style="display: inline"><a><img style="width: 26px; margin-bottom: 3px; margin-right: 270px;" src="https://media.discordapp.net/attachments/894919708938223657/901240657530748938/kartu.png" alt="logo kartu"></a></li>
+                  <li style="display: inline"><input name="text" placeholder="Enter Email"><button type="submit">Subscribe</button></li>
+              </ul>
+            </footer>
+        </div>
+    </body>
+</html>
